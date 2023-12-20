@@ -1,23 +1,30 @@
 #!/usr/bin/env python3
 
-# The signatures of this class and its public methods are required for the automated grading to work. 
-# You must not change the names or the list of parameters. 
-# You may introduce private/protected utility methods though.
 class ProfanityFilter:
 
     def __init__(self, keywords, template):
-        self.keywords = sorted(keywords, key = len, reverse = True)
-    
-    def replacement(self, word):
-        pass
+        self.keywords = reversed(sorted([kw.lower() for kw in keywords]))
+        self.template = template
 
     def filter(self, msg):
-        pass
+        msg_lower = msg.lower()
+        for word in self.keywords:
+            while word in msg_lower:
+                idx = msg_lower.find(word)
+                msg = self.replace(msg, idx, word)
+                msg_lower = self.replace(msg_lower, idx, word)
+        return msg
 
+    def replace(self, s, idx, word):
+        clean_word = self.escape(word)
+        return s[:idx] + clean_word + s[idx+len(clean_word):]
 
-        
-        
-
+    def escape(self, word):
+        res = ""
+        for idx, _ in enumerate(word):
+            t_idx = idx % len(self.template)
+            res += self.template[t_idx]
+        return res
 
 # You can play around with your implementation in the body of the following 'if'.
 # The contained statements will be ignored while evaluating your solution.
