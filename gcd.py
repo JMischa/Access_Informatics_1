@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+######################
+# Author: Mischa Jampen
+######################
 
 def gcd(a, b):
     # implement this function
