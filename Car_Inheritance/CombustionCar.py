@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 
 # Implement this class. Stick to the naming that is introduced in the
 # UML diagram. Do not change the class name or the method signatures

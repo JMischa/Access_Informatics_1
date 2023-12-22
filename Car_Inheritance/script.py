@@ -1,4 +1,4 @@
-
+__author__ = "Mischa Jampen"
 
 from CombustionCar import CombustionCar
 from ElectricCar import ElectricCar

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 
 # The purpose of this file is illustrating the class usages. This script
 # is irrelevant for the grading and you can freely change its contents.

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 from unittest import TestCase
 from Script import move
 

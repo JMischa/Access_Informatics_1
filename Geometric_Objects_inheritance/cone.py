@@ -1,4 +1,4 @@
-from geometric_object import GeometricObject
+__author__ = "Mischa Jampen"
 from math import pi
 
 
