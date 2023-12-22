@@ -1,4 +1,4 @@
-
+__author__ = "Mischa Jampen"
 #!/usr/bin/env python3
 
 # perform a ROTn encoding

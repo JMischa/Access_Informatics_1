@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 
 # build a string 
 def build_string_pyramid(h):

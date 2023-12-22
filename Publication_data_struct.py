@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 import json
 # The signatures of this class and its task methods are required for the automated grading to work.
 # You must not change the names or the list of parameters.

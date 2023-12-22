@@ -1,4 +1,4 @@
-from collections import defaultdict
+__author__ = "Mischa Jampen"
 
 # Dataset contains data that will be reverse indexed
 dataset = [

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 # This is the previous implementation, which contains several mistakes.
 # Instead of fixing the implementation, provide tests that isolate and
 # illustrate the issues.

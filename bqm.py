@@ -1,4 +1,4 @@
-import random
+__author__ = "Mischa Jampen"
 
 def pitcher_pro_Kopf():
     persons = {'Mattia': 0, 'Mischa': 0, 'Levin': 0}

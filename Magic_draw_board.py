@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 
 class MagicDrawingBoard:
     def __init__(self, x, y):

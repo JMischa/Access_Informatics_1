@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 
 def is_valid_IPv4_octet(octet):
     """Returns True if octet represents a valid IPv4 octet, False otherwise"""

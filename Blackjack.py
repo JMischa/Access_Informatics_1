@@ -1,4 +1,4 @@
-import random
+__author__ = "Mischa Jampen"
 #########################
 # Game by Mischa Jampen
 #########################

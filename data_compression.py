@@ -1,4 +1,4 @@
-
+__author__ = "Mischa Jampen"
 
 
 def compress(data):

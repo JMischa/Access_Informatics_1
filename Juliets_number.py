@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 
 # use this list of presumably known Whatsapp numbers to check
 # whether a trial nr from the function below exists in Whatsapp.

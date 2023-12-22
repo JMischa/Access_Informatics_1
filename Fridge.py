@@ -1,4 +1,4 @@
-# Author: Mischa Jampen
+__author__ = "Mischa Jampen"
 class Fridge:
     
     def __init__(self):

@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+__author__ = "Mischa Jampen"
 import unittest
 
 class Product(ABC):

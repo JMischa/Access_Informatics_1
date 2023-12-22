@@ -1,4 +1,4 @@
-
+__author__ = "Mischa Jampen"
 from unittest import TestCase
 from task.script import sort
 

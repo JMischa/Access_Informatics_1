@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 
 class Matrix:
         # Remember that instanes variables should be private (i.e., prepended with two underscores: __)

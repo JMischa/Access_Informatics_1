@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+__author__ = "Mischa Jampen"
 
 # As mentioned in the hints, you might want to use the math package
 import math
