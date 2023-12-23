@@ -1,4 +1,7 @@
 __author__ = "Mischa Jampen"
+
+
+class Item:
     def __init__(self, name, price):
         self.name = name
         self.price = price

@@ -1,5 +1,7 @@
 __author__ = "Mischa Jampen"
 
+import random
+
 def pitcher_pro_Kopf():
     persons = {'Mattia': 0, 'Mischa': 0, 'Levin': 0}
     x = random.randrange(3, 10)

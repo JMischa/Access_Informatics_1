@@ -22,7 +22,7 @@ def update_author_in_files(folder_path):
 
 if __name__ == "__main__":
     # Replace the following path with the correct path on your Mac
-    base_folder = "/Users/mischajampen/Developer/Python/Access_Informatics_1/WhiteBox"
+    base_folder = "/Users/mischajampen/Developer/Python/Access_Informatics_1"
 
     # Call the function to update __author__ in Python files
     update_author_in_files(base_folder)

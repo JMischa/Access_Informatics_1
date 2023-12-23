@@ -1,7 +1,5 @@
 __author__ = "Mischa Jampen"
-#########################
-# Game by Mischa Jampen
-#########################
+import random
 
 # Define the deck of cards
 suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']

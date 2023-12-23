@@ -1,7 +1,4 @@
 __author__ = "Mischa Jampen"
-######################
-# Author: Mischa Jampen
-######################
 
 def gcd(a, b):
     # implement this function
