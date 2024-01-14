@@ -1,3 +1,4 @@
+__author__ = "Mischa Jampen"
 
 #!/usr/bin/env python3
 
@@ -29,12 +30,12 @@ def hamming_dist(signal_1, signal_2):
     
     for i in range(len(data_1)):
         if len(data_1[i]) != len(data_2[i]):
-            return "Sebsor defect detected"
+            return "Sensor defect detected"
         distance = calculating_hamming_distance(data_1[i], data_2[i])
         if distance > 0:
             res.append((data_1[i], data_2[i], distance))
      
-    return res
+    return res if res else "Empty signal on at least one of the sensors"
 # The following lines print your function's output for an exemplary input to the console.
 # Note that this does not include any of the mentioned edge cases for defective sensors or signals of different lenghts.
 # Try to write your own tests for this.
@@ -42,4 +43,3 @@ def hamming_dist(signal_1, signal_2):
 signal_sensor_1 = { "times": [0, 2, 5], "data": ["0010", "1101", "1100"] }
 signal_sensor_2 = ("0010", "1111", "0000")
 print(hamming_dist(signal_sensor_1, signal_sensor_2))
-
