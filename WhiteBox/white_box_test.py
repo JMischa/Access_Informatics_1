@@ -1,4 +1,5 @@
 __author__ = "Mischa Jampen"
+import unittest
 from unittest import TestCase
 from Script import move
 
@@ -68,10 +69,10 @@ class MoveTestSuite(TestCase):
             (
                 "#####   ",
                 "###    #",
-                "#  o  ##",
+                "#    o##",
                 "   #####"
             ),
-            ("left", "right", "up")
+            ("left","up")
         )
         # uncomment the following line once you've implemented move
         self.assertEqual(expected, actual)
@@ -183,3 +184,5 @@ class MoveTestSuite(TestCase):
         with self.assertRaises(Warning):
             move(state,"right")
     
+if __name__ ==  "__main__":
+    unittest.main()
