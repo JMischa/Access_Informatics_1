@@ -27,7 +27,7 @@ class Canvas:
             raise Exception
         if not isinstance(path, str):
             raise Exception
-        if not isinstance(char, str):
+        if not isinstance(char, str) and len(char) != 1:
             raise Exception
         
         y %= len(self.rows)
