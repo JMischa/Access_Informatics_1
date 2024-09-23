@@ -51,7 +51,7 @@ if __name__ == "__main__":
     db = MagicDrawingBoard(6,4)
     db.pixel((1,1))
     img = db.img()
-    #print(img)
+    print(img)
     db.rect((2,2), (2,2))
     img = db.img()
     print(img)
